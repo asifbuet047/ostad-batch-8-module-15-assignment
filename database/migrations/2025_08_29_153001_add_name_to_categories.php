@@ -11,10 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('customers', function (Blueprint $table) {
+        Schema::table('categories', function (Blueprint $table) {
             $table->string('name');
-            $table->string('email');
-            $table->string('mobile', 11);
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
         });
     }
@@ -24,9 +22,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('customers', function (Blueprint $table) {
-            $table->dropColumn(['name', 'email', 'mobile']);
-            $table->dropForeign(['user_id']);
+        Schema::table('categories', function (Blueprint $table) {
+            $table->dropColumn(['name', 'user_id']);
         });
     }
 };

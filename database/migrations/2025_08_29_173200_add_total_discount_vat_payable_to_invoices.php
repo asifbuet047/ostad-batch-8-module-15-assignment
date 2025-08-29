@@ -11,11 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('customers', function (Blueprint $table) {
-            $table->string('name');
-            $table->string('email');
-            $table->string('mobile', 11);
+        Schema::table('invoices', function (Blueprint $table) {
+            $table->float('total');
+            $table->float('discount');
+            $table->float('vat');
+            $table->float('payable');
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->foreignId('customer_id')->constrained()->onDelete('cascade');
         });
     }
 
@@ -24,9 +26,8 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('customers', function (Blueprint $table) {
-            $table->dropColumn(['name', 'email', 'mobile']);
-            $table->dropForeign(['user_id']);
+        Schema::table('invoices', function (Blueprint $table) {
+            $table->dropColumn(['total', 'discount', 'vat', 'payable', 'user_id', 'customer_id']);
         });
     }
 };

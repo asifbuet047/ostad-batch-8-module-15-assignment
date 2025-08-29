@@ -15,4 +15,10 @@ class Customer extends Model
         'mobile',
         'email'
     ];
+
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
