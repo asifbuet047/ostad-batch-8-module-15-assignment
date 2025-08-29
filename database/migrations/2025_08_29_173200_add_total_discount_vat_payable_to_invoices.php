@@ -27,6 +27,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('invoices', function (Blueprint $table) {
+            $table->dropForeign(['user_id', 'customer_id']);
             $table->dropColumn(['total', 'discount', 'vat', 'payable', 'user_id', 'customer_id']);
         });
     }
