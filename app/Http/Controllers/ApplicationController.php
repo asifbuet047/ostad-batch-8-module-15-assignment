@@ -11,4 +11,19 @@ class ApplicationController extends Controller
     {
         return view('home');
     }
+
+    public function showResumePage(Response $response)
+    {
+        return view('resume');
+    }
+
+    public function showProjectsPage(Response $response)
+    {
+        return view('projects');
+    }
+
+     public function showContactPage(Response $response)
+    {
+        return view('contact');
+    }
 }
