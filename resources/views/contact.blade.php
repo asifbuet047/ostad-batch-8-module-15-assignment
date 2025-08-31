@@ -46,54 +46,67 @@
                         <form id="contactForm" method="POST" action="{{ route('contact.success') }}">
                             @csrf
                             <!-- Name input-->
-                            <div class="form-floating mb-3">
+                            <div class="mb-3">
                                 @if (session('success'))
+                                    <label for="name" class="form-label">Full name</label>
                                     <input class="form-control" id="name" name="name" type="text"
                                         placeholder="Enter your name..." disabled value="{{ session('data')['name'] }}" />
-                                    <label for="name">Full name</label>
                                 @else
+                                    <label for="name" class="form-label">Full name</label>
                                     <input class="form-control" id="name" name="name" type="text"
                                         placeholder="Enter your name..." data-sb-validations="required" />
-                                    <label for="name">Full name</label>
                                 @endif
 
                             </div>
                             <!-- Email address input-->
-                            <div class="form-floating mb-3">
+                            <div class="mb-3">
                                 @if (session('success'))
+                                    <label for="email" class="form-label">Email address</label>
                                     <input class="form-control" id="email" name="email" type="email"
                                         placeholder="name@example.com" disabled value="{{ session('data')['email'] }}" />
-                                    <label for="email">Email address</label>
                                 @else
+                                    <label for="email" class="form-label">Email address</label>
                                     <input class="form-control" id="email" name="email" type="email"
                                         placeholder="name@example.com" data-sb-validations="required,email" />
-                                    <label for="email">Email address</label>
                                 @endif
 
                             </div>
                             <!-- Phone number input-->
-                            <div class="form-floating mb-3">
+                            <div class="mb-3">
                                 @if (session('success'))
+                                    <label for="phone" class="form-label">Phone number</label>
                                     <input class="form-control" id="phone" name="phone" type="tel"
                                         placeholder="01*******" disabled value="{{ session('data')['phone'] }}" />
-                                    <label for="phone">Phone number</label>
                                 @else
+                                    <label for="phone" class="form-label">Phone number</label>
                                     <input class="form-control" id="phone" name="phone" type="tel"
                                         placeholder="01*******" data-sb-validations="required" />
-                                    <label for="phone">Phone number</label>
                                 @endif
 
                             </div>
                             <!-- Message input-->
-                            <div class="form-floating mb-3">
+                            <div class="mb-3">
                                 @if (session('success'))
+                                    <label for="message" class="form-label">Message</label>
                                     <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..."
                                         style="height: 10rem" disabled>{{ session('data')['message'] }}</textarea>
-                                    <label for="message">Message</label>
                                 @else
+                                    <label for="message" class="form-label">Message</label>
                                     <textarea class="form-control" id="message" name="message" type="text" placeholder="Enter your message here..."
                                         style="height: 10rem" data-sb-validations="required"></textarea>
-                                    <label for="message">Message</label>
+                                @endif
+
+                            </div>
+                            <!-- File input-->
+                            <div class="mb-3">
+                                @if (session('success'))
+                                    <label for="file" class="form-label">Uploaded file</label>
+                                    <input class="form-control" id="file" name="file" type="file"
+                                        placeholder="Attch your file here" disabled />
+                                @else
+                                    <label for="file" class="form-label">Uploaded file</label>
+                                    <input class="form-control" id="file" name="file" type="file"
+                                        placeholder="Attch your file here" />
                                 @endif
 
                             </div>
