@@ -9,4 +9,6 @@ Route::get('/resume', [ApplicationController::class, 'showResumePage']);
 
 Route::get('/projects', [ApplicationController::class, 'showProjectsPage']);
 
-Route::get('/contact', [ApplicationController::class, 'showContactPage']);
+Route::get('/contact', [ApplicationController::class, 'showContactPage'])->name('contact.form');
+
+Route::post('/contact', [ApplicationController::class, 'postContactMessage'])->name('contact.success');
