@@ -43,7 +43,8 @@
                             </div>
                         @endif
 
-                        <form id="contactForm" method="POST" action="{{ route('contact.success') }}">
+                        <form id="contactForm" method="POST" action="{{ route('contact.success') }}"
+                            enctype="multipart/form-data">
                             @csrf
                             <!-- Name input-->
                             <div class="mb-3">
