@@ -21,8 +21,8 @@ This project showcases my skills, projects, and experience in web development.
 ## 🛠️ Tech Stack
 - **Frontend:** Bootstrap, Bootstrap Icon  
 - **State Management:** laravel Session  
-- **Backend (if any):** Laravel  
-- **Database (if any):**  MySQL  
+- **Backend :** Laravel  
+- **Database :**  MySQL  
 
 ---
 
