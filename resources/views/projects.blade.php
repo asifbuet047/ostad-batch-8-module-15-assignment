@@ -16,9 +16,15 @@
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Project Name 1</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum
-                                        aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad
-                                        asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                    <p>Developed a full-stack web application featuring a responsive user interface and
+                                        secure backend integration.
+                                    </p>
+                                    <p>- Implemented user authentication, product catalog management, and real-time search
+                                        functionality.</p>
+                                    <p>- Optimized performance and scalability to handle high traffic and large datasets.
+                                    </p>
+                                    <p>- Utilized technologies such as React, Node.js, and MySQL to deliver a seamless user
+                                        experience.</p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -30,9 +36,14 @@
                             <div class="d-flex align-items-center">
                                 <div class="p-5">
                                     <h2 class="fw-bolder">Project Name 2</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum
-                                        aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad
-                                        asperiores! Explicabo commodi quo itaque! Ipsam!</p>
+                                    <p>Built a dynamic web application with responsive design and scalable backend
+                                        architecture.
+                                    </p>
+                                    <p>- Enhanced user experience with intuitive navigation and optimized page load times.
+                                    </p>
+                                    <p>- Integrated APIs for real-time data and implemented secure payment workflows.</p>
+                                    <p>- Delivered the project within deadlines while ensuring code quality and
+                                        maintainability.</p>
                                 </div>
                                 <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
                             </div>
@@ -47,7 +58,7 @@
         <div class="container px-5 my-5">
             <div class="text-center">
                 <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Contact me</a>
+                <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Contact me</a>
             </div>
         </div>
     </section>

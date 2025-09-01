@@ -33,9 +33,21 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed
-                                        aliquam non voluptate corrupti excepturi maxime porro fuga.</div>
+                                    <div>- Designed, developed, and maintained responsive web applications to improve user
+                                        experience and performance.</div>
+                                    <div> - Collaborated with cross-functional teams to deliver scalable solutions
+                                        aligned
+                                        with business requirements.</div>
+                                    <div>- Optimized website speed and SEO, resulting in improved search rankings and
+                                        higher
+                                        user engagement.</div>
+                                    <div> - Implemented modern front-end frameworks and RESTful APIs to streamline
+                                        development
+                                        processes.</div>
+                                    <div>- Ensured cross-browser compatibility, accessibility compliance, and
+                                        mobile-first
+                                        design standards.</div>
+
                                 </div>
                             </div>
                         </div>
@@ -53,9 +65,26 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed
-                                        aliquam non voluptate corrupti excepturi maxime porro fuga.</div>
+
+                                    <div>
+                                        - Planned, executed, and optimized paid search campaigns (Google Ads, Bing Ads) to
+                                        maximize ROI.
+                                    </div>
+                                    <div>
+                                        - Conducted keyword research, ad copy testing, and bid management to improve
+                                        campaign performance.
+                                    </div>
+                                    <div>
+                                        - Monitored analytics and generated performance reports to guide strategic
+                                        decisions.
+                                    </div>
+                                    <div>
+                                        - Collaborated with marketing and sales teams to align SEM efforts with broader
+                                        business goals.
+                                    </div>
+                                    <div>- Achieved measurable increases in traffic, conversions, and lead generation
+                                        through
+                                        data-driven strategies.</div>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +92,7 @@
                 </section>
                 <!-- Education Section-->
                 <section>
-                    <h2 class="text-secondary fw-bolder mb-4">Education</h2>
+                    <h2 class="text-primary fw-bolder mb-4">Education</h2>
                     <!-- Education Card 1-->
                     <div class="card shadow border-0 rounded-4 mb-5">
                         <div class="card-body p-5">
@@ -82,9 +111,15 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed
-                                        aliquam non voluptate corrupti excepturi maxime porro fuga.</div>
+                                    <div>- Specialized in advanced web technologies, software engineering, and database
+                                        management.
+                                    </div>
+                                    <div> - Completed projects focused on responsive design, e-commerce platforms, and
+                                        scalable web applications.</div>
+                                    <div>- Conducted research on modern front-end frameworks and usability best practices.
+                                    </div>
+                                    <div> - Collaborated in team-based projects to simulate real-world development
+                                        environments.</div>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +142,9 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-8">
-                                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium,
-                                        voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed
-                                        aliquam non voluptate corrupti excepturi maxime porro fuga.</div>
+                                    <div>Focused on advanced programming, database systems, and modern front-end frameworks.
+                                        Graduated with distinction and completed several projects on responsive design and
+                                        e-commerce solutions. </div>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +162,8 @@
                                 <div class="d-flex align-items-center mb-4">
                                     <div
                                         class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
-                                        <i class="bi bi-tools"></i></div>
+                                        <i class="bi bi-tools"></i>
+                                    </div>
                                     <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Professional
                                             Skills</span></h3>
                                 </div>
@@ -165,7 +201,8 @@
                                 <div class="d-flex align-items-center mb-4">
                                     <div
                                         class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
-                                        <i class="bi bi-code-slash"></i></div>
+                                        <i class="bi bi-code-slash"></i>
+                                    </div>
                                     <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Languages</span></h3>
                                 </div>
                                 <div class="row row-cols-1 row-cols-md-3 mb-4">
@@ -184,7 +221,7 @@
                                         <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Python</div>
                                     </div>
                                     <div class="col mb-4 mb-md-0">
-                                        <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Ruby</div>
+                                        <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">PHP</div>
                                     </div>
                                     <div class="col">
                                         <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Node.js</div>
