@@ -29,5 +29,5 @@ This project showcases my skills, projects, and experience in web development.
 ## 🚀 Getting Started
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+git clone https://github.com/asifbuet047/ostad-batch-8-module-15-assignment
+cd ostad-batch-8-module-15-assignment
