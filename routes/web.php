@@ -22,7 +22,7 @@ Route::get('/user', function (Request $request) {
     $name = $request->query('name');
     $email = $request->query('email');
 
-    Session::put('into', ['name' => $name, 'email' => $email]);
+    Session::put('last_action', ['name' => $name, 'email' => $email]);
 
     Log::info('user data stored', ['name' => $name, 'email' => $email]);
 
